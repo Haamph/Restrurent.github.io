@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Yeseva+One&display=swap');
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* header part css start */
+
+.header {
+  background-image: url(../image/banner1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* header part css end */
+
+/* navbar css start */
+
+.navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar-nav .nav-item .nav-link span {
+  transform: scale(0);
+  position: absolute;
+  top: -140%;
+  left: 0%;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  transition: all linear 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover span {
+  transform: scale(1);
+  top: -136%;
+  transition: all linear 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: 'Gentium Book Plus', serif;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 0 25px;
+  color: #fff;
+}
+
+.navbar-nav .nav-item .icon_link {
+  color: #dab33e;
+}
+
+.navbar-nav .nav-item .icon_link i {
+  padding: 5px;
+}
+
+/* navbar css end */
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+/* banner part css start */
+
+.banner {
+  padding: 200px 0;
+}
+
+.banner_content {
+  text-align: center;
+}
+
+.banner_content h4 {
+  color: #fff;
+  font-family: 'Yeseva One', cursive;
+  font-size: 90px;
+  font-weight: 400;
+  padding-bottom: 35px;
+}
+
+.banner_content img {
+  padding-bottom: 25px;
+}
+
+.banner_link {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.banner_link a {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 55px;
+  margin: 0 32px;
+  transition: all .4s;
+}
+
+.banner_link a.black {
+  border: 1px solid rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .4);
+}
+
+.banner_link a.black:hover {
+  border: 1px solid #fff;
+}
+
+.banner_link a.white {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.banner_link a.white:hover {
+  border: 1px solid #fff;
+}
+
+/* banner part css end */
+
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+
+/* cook part html start */
+
+.cook {
+  background-image: url(../image/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 95px 0;
+}
+
+.cook_info {
+  text-align: center;
+  padding-top: 105px;
+}
+
+.cook_info h4 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 36px;
+  font-weight: 400;
+  color: #cc9900;
+}
+
+.cook_info .gold_bdr {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.cook_info p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 40px;
+}
+
+.cook_info .man {
+  padding-left: 90px;
+  padding-top: 50px;
+  background: transparent;
+}
+
+.cook_dish {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+/* cook part html end */
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+/* ingredient part css start */
+
+.ingredient {
+  background-image: url(../image/banner3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+
+.ind_content {
+  background: rgba(0, 0, 0, .4);
+  margin: 100px 0;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.ind_content h4 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.ind_content .white_bdr {
+  padding-bottom: 30px;
+}
+
+.ind_content p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  padding-bottom: 55px;
+  margin: 0;
+}
+
+.ind_content .ind {
+  padding: 0 12.5px;
+}
+
+
+/* ingredient part css end */
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+/* menu part html start */
+
+.menu {
+  background-image: url(../image/banner4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 130px 0;
+}
+
+.menu_content {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.menu_content .menu2 {
+  padding-top: 65px;
+}
+
+.menu_content .menu4 {
+  padding-top: 65px;
+}
+
+.menu_content .heading {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #cc9900;
+  padding-bottom: 15px;
+}
+
+.menu_content .dish {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 35px;
+  margin: 0;
+}
+
+.menu_content .dish .item {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 26px;
+  color: #cc9900;
+  text-align: left;
+}
+
+.menu_content .dish .price {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 26px;
+  color: #cc9900;
+  text-align: right;
+}
+
+.menu_content .dish .bdr {
+  grid-column: 1 / -1;
+  border-bottom: 1px solid #cc9900;
+}
+
+.menu_content .info {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  padding: 0 35px;
+}
+
+/* menu part html end */
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+/* review part html start */
+
+.review {
+  background-image: url(../image/banner5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.review_content {
+  text-align: center;
+  background: rgba(0, 0, 0, .5);
+  padding: 80px 20px;
+  margin: 100px 0;
+  position: relative;
+}
+
+.review_content h4 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+  padding-bottom: 25px;
+}
+
+.review_content img {
+  padding-bottom: 30px;
+}
+
+.review_content .text {
+  font-family: 'Gentium Book Plus', serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+}
+
+.review_content .ref {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.review_content span {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 70px;
+  color: #fff;
+  position: absolute;
+  top: 175px;
+  left: 25px;
+}
+
+/* review part css end */
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+/* order part css start */
+
+.order {
+  padding: 100px 0;
+  background-image: url(../image/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 115px 0;
+}
+
+.odr_content {
+  text-align: center;
+}
+
+.odr_content h4 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #cc9900;
+  padding-bottom: 15px;
+}
+
+.odr_content img {
+  padding-bottom: 30px;
+}
+
+.odr_content .odr_text {
+  padding: 25px 0;
+}
+
+.odr_content .odr_text p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+.odr_form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  text-align: left;
+  gap: 5px;
+}
+
+/* name part */
+.odr_form .name {
+  grid-column: 1 / 7;
+  grid-row: 1 / 2;
+  padding-bottom: 20px;
+}
+
+.odr_form .name p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #cc9900;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.odr_form .name input {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #cc9900;
+  padding: 7px 7px;
+}
+
+.odr_form .name input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* name part */
+
+/* email part */
+.odr_form .email {
+  grid-column: 7 / -1;
+  grid-row: 1 / 2;
+  padding-bottom: 20px;
+}
+
+.odr_form .email p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #cc9900;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.odr_form .email input {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #cc9900;
+  padding: 7px 7px;
+}
+
+.odr_form .email input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* email part */
+
+/* date part */
+.odr_form .date {
+  grid-column: 1 / 7;
+  grid-row: 2 / 3;
+  padding-bottom: 20px;
+}
+
+.odr_form .date p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #cc9900;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.odr_form .date input {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #cc9900;
+  padding: 7px 7px;
+}
+
+.odr_form .date input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* date part */
+
+/* number part */
+.odr_form .number {
+  grid-column: 7 / -1;
+  grid-row: 2 / 3;
+  padding-bottom: 20px;
+}
+
+.odr_form .number p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #cc9900;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.odr_form .number input {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid #cc9900;
+  padding: 7px 7px;
+}
+
+.odr_form .number input::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* number part */
+
+.odr_form input[type='submit'] {
+  grid-column: 4 / 10;
+  background: #cc9900;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid #cc9900;
+  padding: 11.5px 0;
+  transition: all .4s;
+}
+
+.odr_form input[type='submit']:hover {
+  background: transparent;
+  color: #cc9900;
+}
+
+/* order part css end */
+
+/* 
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+/* footer part css start */
+
+.footer {
+  background: #191919;
+  padding: 80px 0;
+}
+
+.footer_content {
+  text-align: center;
+  color: #fff;
+}
+
+.footer_content h4 {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 400;
+  font-size: 21px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.footer_content img {
+  padding-bottom: 20px;
+}
+
+.footer_content p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+}
+
+.footer_content span {
+  font-weight: 700;
+}
+
+.footer_content .footer_icon {
+  padding-top: 50px;
+}
+
+.footer_content .footer_icon ul {
+  padding: 0;
+}
+
+.footer_content .footer_icon ul li a {
+  color: #fff;
+}
+
+/* footer part css end */

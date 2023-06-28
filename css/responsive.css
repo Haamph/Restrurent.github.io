@@ -1,0 +1,154 @@
+
+/* // ExtrasSmall devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+  /* header part css start */
+
+  .icon {
+    display: none;
+  }
+  header .content p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* header part css end */
+  
+  /* navbar part css start */
+
+  .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+
+  /* navbar part css end */
+
+  /* banner part css start */
+
+  .banner_content {
+    text-align: center;
+  }
+  .banner_content h1 {
+    font-size: 34px;
+  }
+  .banner_content h4 {
+    font-size: 27px;
+  }
+
+  /* banner part css end */
+
+  /* service part css start */
+
+  .service_main{
+    margin-bottom: 30px;
+  }
+  .ser_icon_main {
+    top: -40px;
+    left: 36%;
+  }
+
+  /* service part css end */
+
+  /* testimonial part css start */
+
+  .piramid {
+    top: -8%;
+    left: 43%;
+  }
+  .test_img{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  /* testimonial part css end */
+
+  /* footer part css start */
+
+  .footer_img {
+    text-align: center;
+  }
+  .footer_text {
+    text-align: center;
+  }
+  .footer_heading {
+    text-align: center;
+  }
+  .footer_info p {
+    font-size: 15px;
+  }
+  .footer_link {
+    text-align: center;
+  }
+
+  /* footer part css end */
+
+
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* banner part css start */
+
+  .banner_content{
+    text-align: center;
+  }
+
+  /* banner part css end */
+
+  /* about part css start */
+
+  .about_content {
+    margin: 0;
+  }
+  .about_content p{
+    line-height: 24px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .about_content .sm_hide{
+    display: none;
+  }
+
+  /* about part css end */
+
+  /* service part css start */
+
+  .service_main{
+    margin-bottom: 30px;
+  }
+  .ser_icon_main {
+    top: -39px;
+    left: 42%;
+  }
+
+  /* service part css end */
+
+  /* testimonial part css start */
+
+  .piramid {
+    top: -9%;
+    left: 46%;
+  }
+  .test_img {
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+
+  /* testimonial part css end */
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
