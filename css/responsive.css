@@ -1,154 +1,573 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 360px) and (max-width: 575px) {
 
-/* // ExtrasSmall devices (landscape phones, 576px and up) */
-@media (min-width: 320px) and (max-width: 575px) {
-
-  /* header part css start */
-
-  .icon {
-    display: none;
-  }
-  header .content p {
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  /* header part css end */
-  
   /* navbar part css start */
 
+  .navbar-brand img {
+    width: 65%;
+  }
+
+  .navbar-nav .nav-item {
+    text-align: right;
+  }
+
+  .navbar-nav .nav-item {
+    padding: 10px 0;
+  }
+
   .navbar-nav .nav-item .nav-link {
-    text-align: center;
+    font-size: 16px;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover span {
+    transform: scale(0);
+    top: -136%;
+    transition: all linear 0.3s;
   }
 
   /* navbar part css end */
 
   /* banner part css start */
 
-  .banner_content {
-    text-align: center;
+  .banner {
+    padding: 120px 0;
   }
-  .banner_content h1 {
-    font-size: 34px;
-  }
+
   .banner_content h4 {
-    font-size: 27px;
+    font-size: 40px;
+  }
+
+  .banner_link a {
+    font-size: 13px;
+    padding: 12px 25px;
+    margin: 0 0px;
   }
 
   /* banner part css end */
 
-  /* service part css start */
+  /* cook part css start */
 
-  .service_main{
-    margin-bottom: 30px;
-  }
-  .ser_icon_main {
-    top: -40px;
-    left: 36%;
+  .cook {
+    padding: 65px 0;
   }
 
-  /* service part css end */
-
-  /* testimonial part css start */
-
-  .piramid {
-    top: -8%;
-    left: 43%;
-  }
-  .test_img{
-    margin-top: 30px;
-    margin-bottom: 50px;
+  .cook_info {
+    padding-top: 45px;
   }
 
-  /* testimonial part css end */
+  .cook_info h4 {
+    font-size: 26px;
+  }
+
+  .cook_info p span {
+    display: none;
+  }
+
+  /* cook part css end */
+
+  /* ingredient part css start */
+
+  .ingredient {
+    padding: 85px 0;
+  }
+
+  .ind_content {
+    margin: 40px 0;
+    padding: 55px 10px;
+  }
+
+  .ind_content h4 {
+    font-size: 26px;
+  }
+
+  .ind_content p span {
+    display: none;
+  }
+
+  /* ingredient part css end */
+
+  /* menu part css start */
+
+  .menu {
+    padding: 90px 0;
+  }
+
+  .menu_content {
+    padding: 50px 0;
+  }
+
+  .menu_content .menu2 {
+    padding-top: 40px;
+  }
+
+  .menu_content .menu4 {
+    padding-top: 40px;
+  }
+
+  .menu_content .heading {
+    font-size: 26px;
+  }
+
+  .menu_content .info {
+    font-size: 13px;
+  }
+
+  .menu_content .dish .item {
+    font-size: 20px;
+  }
+
+  .menu_content .dish .price {
+    font-size: 20px;
+  }
+
+  /* menu part css end */
+
+  /* review part css start */
+
+  .review {
+    padding: 65px 0;
+  }
+
+  .review_content {
+    padding: 65px 20px;
+    margin: 65px 0;
+  }
+
+  .review_content h4 {
+    font-size: 26px;
+  }
+
+  .review_content .text {
+    font-size: 17px;
+  }
+
+  .review_content span {
+    font-size: 54px;
+    top: 162px;
+    left: 43px;
+  }
+
+  /* review part css end */
+
+  /* order part css start */
+
+  .order {
+    padding: 85px 0;
+  }
+
+  .odr_content h4 {
+    font-size: 26px;
+    padding: 30px 0;
+    margin: 0;
+  }
+
+  .odr_content img {
+    padding-bottom: 18px;
+  }
+
+  .odr_content .odr_text p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .odr_content .odr_text {
+    padding: 12px 0;
+  }
+
+  .odr_form .name p {
+    font-size: 12px;
+    padding: 7px 0;
+  }
+
+  .odr_form .email p {
+    font-size: 12px;
+    padding: 7px 0;
+  }
+
+  .odr_form .date p {
+    font-size: 12px;
+    padding: 7px 0;
+  }
+
+  .odr_form .number p {
+    font-size: 12px;
+    padding: 7px 0;
+  }
+
+  .odr_form .name input {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .odr_form .email input {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .odr_form .date input {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .odr_form .number input {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .odr_form .name input::placeholder {
+    font-size: 12px;
+  }
+
+  .odr_form .email input::placeholder {
+    font-size: 12px;
+  }
+
+  .odr_form .date input::placeholder {
+    font-size: 12px;
+  }
+
+  .odr_form .number input::placeholder {
+    font-size: 12px;
+  }
+
+  .odr_form input[type='submit'] {
+    font-size: 14px;
+    padding: 9.5px 0;
+  }
+
+  /* order part css end */
 
   /* footer part css start */
 
-  .footer_img {
-    text-align: center;
+  .footer_content h4 {
+    font-size: 19px;
+    padding: 20px 0;
   }
-  .footer_text {
-    text-align: center;
-  }
-  .footer_heading {
-    text-align: center;
-  }
-  .footer_info p {
-    font-size: 15px;
-  }
-  .footer_link {
-    text-align: center;
+
+  .footer_content p {
+    font-size: 13px;
   }
 
   /* footer part css end */
 
-
 }
 
-
-
-/* // Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
+
+  /* navabr part css start */
+
+  .navbar-brand img {
+    width: 85%;
+  }
+
+  .navbar-nav .nav-item {
+    text-align: right;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 24px;
+    padding: 5px 25px;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover span {
+    transform: scale(0);
+  }
+
+  /* navabr part css end */
 
   /* banner part css start */
 
-  .banner_content{
-    text-align: center;
+  .banner_content h4 {
+    font-size: 70px;
+  }
+
+  .banner_link a {
+    font-size: 17px;
+    padding: 15px 40px;
+    margin: 0 10px;
   }
 
   /* banner part css end */
 
-  /* about part css start */
+  /* cook part css start */
 
-  .about_content {
+  .cook {
+    padding: 50px 0;
+  }
+
+  .cook_info {
+    padding-top: 60px;
+  }
+
+  .cook_info p {
+    font-size: 19px;
+  }
+
+  /* cook part css end */
+
+  /* ingredients part css start */
+
+  .ind_content {
+    margin: 60px 0;
+    padding: 65px 32px;
+  }
+
+  /* ingredients part css end */
+
+  /* menu part css start */
+
+  .menu {
+    padding: 55px 0;
+  }
+
+  .menu_content {
+    padding: 55px 0;
+  }
+
+  /* menu part css end */
+
+  /* review part css start */
+
+  .review {
+    padding: 40px 0;
+  }
+
+  .review_content {
+    padding: 60px 20px;
+    margin: 70px 0;
+  }
+
+  .review_content .text {
+    font-size: 23px;
+  }
+
+  .review_content span {
+    top: 161px;
+    left: 28px;
+  }
+
+  /* review part css end */
+
+  /* order part css start */
+
+  .odr_content h4 {
+    padding: 25px 0;
     margin: 0;
   }
-  .about_content p{
-    line-height: 24px;
-    font-size: 14px;
-    text-align: justify;
-  }
-  .about_content .sm_hide{
-    display: none;
+
+  .odr_content .odr_text p {
+    padding: 0 20px;
   }
 
-  /* about part css end */
+  /* order part css end */
 
-  /* service part css start */
+  /* footer part css start */
 
-  .service_main{
-    margin-bottom: 30px;
-  }
-  .ser_icon_main {
-    top: -39px;
-    left: 42%;
+  .footer_content h4 {
+    font-size: 24px;
+    padding: 25px;
+    margin: 0;
   }
 
-  /* service part css end */
-
-  /* testimonial part css start */
-
-  .piramid {
-    top: -9%;
-    left: 46%;
-  }
-  .test_img {
-    margin-top: 30px;
-    margin-bottom: 45px;
+  .footer_content p {
+    padding: 0 20px;
   }
 
-  /* testimonial part css end */
-
+  /* footer part css end */
 
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {}
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {}
+  /* navabr part css start */
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399px) {}
+  .navbar-brand img {
+    width: 95%;
+  }
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+  .navbar-nav .nav-item {
+    text-align: right;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 24px;
+    padding: 5px 25px;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover span {
+    transform: scale(0);
+  }
+
+  /* navabr part css end */
+
+  /* banner part css start */
+
+  .banner {
+    padding: 140px 0;
+  }
+
+  .banner_content h4 {
+    font-size: 65px;
+  }
+
+  .banner_content img {
+    padding-bottom: 60px;
+  }
+
+  .banner_link a {
+    font-size: 16px;
+    padding: 17px 45px;
+    margin: 0px 25px;
+  }
+
+  /* banner part css end */
+
+  /* cook part css start */
+
+  .cook_info {
+    padding-top: 30px;
+  }
+
+  .cook_info h4 {
+    font-size: 31px;
+  }
+
+  .cook_info p span {
+    display: none;
+  }
+
+  .cook_info .man {
+    width: 78%;
+    padding-top: 25px;
+  }
+
+  /* cook part css end */
+
+  /* ingredients part css start */
+
+  .ingredient {
+    padding: 70px 0;
+  }
+
+  .ind_content {
+    margin: 40px 0;
+    padding: 45px 20px;
+  }
+
+  .ind_content h4 {
+    font-size: 32px;
+  }
+
+  .ind_content p {
+    font-size: 14px;
+    padding-bottom: 35px;
+  }
+
+  .ind_content .ind {
+    width: 45%;
+  }
+
+  /* ingredients part css end */
+
+  /* menu part css start */
+
+  .menu {
+    padding: 80px 0;
+  }
+
+  .menu_content {
+    padding: 50px 0;
+  }
+
+  .menu_content .heading {
+    font-size: 32px;
+  }
+
+  .menu_content .dish .item {
+    font-size: 22px;
+  }
+
+  .menu_content .dish .price {
+    font-size: 22px;
+  }
+
+  .menu_content .menu2 {
+    padding-top: 40px;
+  }
+
+  .menu_content .menu4 {
+    padding-top: 40px;
+  }
+
+  /* menu part css end */
+
+  /* review part css start */
+
+  .review {
+    padding: 50px 0;
+  }
+
+  .review_content {
+    padding: 55px 20px;
+    margin: 50px 0;
+  }
+
+  .review_content .text {
+    font-size: 22px;
+  }
+
+  .review_content span {
+    top: 156px;
+    left: 10px;
+  }
+
+  /* review part css end */
+
+  /* order part css start */
+
+  .order {
+    padding: 65px 0;
+  }
+
+  .odr_content h4 {
+    font-size: 28px;
+    margin: 0;
+  }
+
+  .odr_content img {
+    padding-bottom: 10px;
+  }
+
+  .odr_content .odr_text {
+    padding: 8px 0;
+  }
+
+  .odr_content .odr_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .odr_content .odr_text span {
+    display: none;
+  }
+
+  /* order part css end */
+
+  /* footer part css start */
+
+  .footer {
+    background: #191919;
+    padding: 60px 0;
+  }
+
+  .footer_content p span:nth-child(2) {
+    display: none;
+  }
+
+  /* footer part css end */
+
+}

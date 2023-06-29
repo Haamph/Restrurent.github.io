@@ -100,12 +100,11 @@ font-family: 'Yeseva One', cursive;
 }
 
 .banner_content img {
-  padding-bottom: 25px;
+  padding-bottom: 55px;
 }
 
 .banner_link {
   text-align: center;
-  padding-top: 35px;
 }
 
 .banner_link a {
@@ -182,6 +181,7 @@ font-family: 'Yeseva One', cursive;
 }
 
 .cook_info .man {
+  width: 60%;
   padding-left: 90px;
   padding-top: 50px;
   background: transparent;
@@ -241,6 +241,7 @@ font-family: 'Yeseva One', cursive;
 
 .ind_content .ind {
   padding: 0 12.5px;
+  width: 30%;
 }
 
 
@@ -379,8 +380,8 @@ font-family: 'Yeseva One', cursive;
   font-size: 70px;
   color: #fff;
   position: absolute;
-  top: 175px;
-  left: 25px;
+  top: 183px;
+  left: 13px;
 }
 
 /* review part css end */
@@ -395,16 +396,16 @@ font-family: 'Yeseva One', cursive;
 /* order part css start */
 
 .order {
-  padding: 100px 0;
   background-image: url(../image/banner2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 115px 0;
+  padding: 100px 0;
 }
 
 .odr_content {
   text-align: center;
+  padding: 0px 35px;
 }
 
 .odr_content h4 {
@@ -630,7 +631,7 @@ font-family: 'Yeseva One', cursive;
   margin: 0;
 }
 
-.footer_content span {
+.footer_content span:nth-child(1) {
   font-weight: 700;
 }
 
